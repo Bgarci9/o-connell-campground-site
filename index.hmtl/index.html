@@ -1,0 +1,55 @@
+<!-- 
+  Page: Home Page (index.html)
+  Content: Features an edge-to-edge panoramic hero banner with the site title, 
+           rounded navigation buttons, and a two-column layout containing an 
+           autoplay video and nature photo on the left, paired with the 
+           "Welcome" and "Our Mission" sections on the right.
+  Purpose: Welcomes visitors to O'Connell's RV Campground, provides a visual 
+           overview of the park, and acts as the central hub for the website.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>O'Connell's RV Campground | Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="pano-header">
+        <div class="pano-overlay">
+            <h1>O'Connell's RV Campground</h1>
+        </div>
+    </header>
+    <nav class="pano-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="amenities.html">Amenities & Activities</a></li>
+            <li><a href="bio.html">About the Developer</a></li>
+        </ul>
+    </nav>
+    <main class="home-content">
+        <section class="home-grid">
+            <div class="video-container">
+                <video controls autoplay muted loop width="100%">
+                    <source src="videos/waterfall.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="home-text-content">
+                <h2>Welcome to O'Connell's RV Campground!</h2>
+                <p>Experience the ultimate outdoor getaway nestled in the heart of Illinois. Whether you are looking for relaxation among nature or fun-filled family activities, our park provides the perfect home away from home.</p>
+
+                <h2>Our Mission</h2>
+                <p>Our mission is to deliver a premier camping experience by combining modern resort-style amenities with the timeless beauty of the outdoors, ensuring every visitor creates lasting memories with friends and family.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 O'Connell's RV Campground</p>
+    </footer>
+</body>
+</html>
